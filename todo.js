@@ -35,7 +35,7 @@ function paintToDo(text) {
   toDoList.appendChild(li);
   const toDoObj = {
     text: text,
-    id: newId,
+    id: newId
   };
   toDos.push(toDoObj);
   saveToDos();
