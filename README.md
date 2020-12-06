@@ -1,2 +1,2 @@
 # momentum.js
-Momentum app made with Vanilla JavaScript
+Momentum app made with Vanilla JS
