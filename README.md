@@ -1,7 +1,7 @@
 # momentum.js
 Momentum app made with Vanilla JS
 
-Functions
+## Functions
 - Clock
 - Username persistance
 - To do list
