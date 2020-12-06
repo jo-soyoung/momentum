@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soyoung's First JS</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="whole">
+      <section class="left">
+        <div class="js-clock">
+          <h1>00:00</h1>
+        </div>
+
+        <form class="js-form form">
+          <input type="text" placeholder="What is your name?" />
+        </form>
+
+        <h2 class="js-greetings greetings"></h2>
+      </section>
+
+      <section class="right">
+        <div class="list">
+          <form class="js-toDoForm">
+            <label for="writeList">List For Today</label>
+            <input type="text" placeholder="Write what to do" id="writeList" />
+          </form>
+
+          <ul class="js-toDoList"></ul>
+        </div>
+
+        <span class="js-weather"></span>
+      </section>
+    </div>
+
+    <script type="text/javascript" src="clock.js"></script>
+    <script type="text/javascript" src="greeting.js"></script>
+    <script type="text/javascript" src="todo.js"></script>
+    <script type="text/javascript" src="background.js"></script>
+    <script type="text/javascript" src="weather.js"></script>
+  </body>
+</html>
