@@ -1,7 +1,7 @@
 # Momentum
 ---
 ## Overview
-Momentum app made with Vanilla JS
+[Momentum app](https://jo-soyoung.github.io/momentum/) made with Vanilla JS
 
 ## Features
 * [x] Clock
